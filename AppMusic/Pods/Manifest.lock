@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - KVLoading (1.9)
+  - LGSideMenuController (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9)
+  - KVLoading (~> 1.5)
+  - LGSideMenuController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KVLoading
+    - LGSideMenuController
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KVLoading: ee22535e4ee4c6ad1ab4272b9e3c283453a9821d
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+
+PODFILE CHECKSUM: 410671acf9a2c7108f808dd7a06f86a3c35cedef
+
+COCOAPODS: 1.9.3

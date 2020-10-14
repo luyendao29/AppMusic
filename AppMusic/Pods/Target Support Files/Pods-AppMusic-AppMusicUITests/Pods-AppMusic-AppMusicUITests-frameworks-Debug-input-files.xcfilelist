@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AppMusic-AppMusicUITests/Pods-AppMusic-AppMusicUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/KVLoading/KVLoading.framework
+${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework
