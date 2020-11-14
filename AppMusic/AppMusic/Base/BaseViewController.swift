@@ -75,18 +75,4 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
         vc.modalTransitionStyle = .crossDissolve
         present(vc, animated: false, completion: nil)
     }
-    
-    //login lai
-//    func reLogin(resultcode: String, action: @escaping() -> ()) {
-//        guard resultcode == "MS-0004" else {
-//            return
-//        }
-//        self.showAlert(type: .notice, message: "Phiên đăng nhập của bạn đã hết hạn.\nVui lòng đăng nhập", close: {
-//            let vc = Storyboard.Main.reLoginVC()
-//            vc.modalPresentationStyle = .overFullScreen
-//            vc.modalTransitionStyle = .crossDissolve
-//            vc.actionReLogin = action
-//            self.present(vc, animated: true, completion: nil)
-//        })
-//    }
 }

@@ -15,7 +15,7 @@ struct DataMenuView {
 
 enum MainLeftMenu {
     case guitangdichvu
-    case nhacchodamua
+    case googleMap
     case lichsucaidat
     case lichsugiaodich
     case thongtincanhan
@@ -26,15 +26,15 @@ enum MainLeftMenu {
     case huydichvu
     case dangxuat
     
-    static let allDanhSach = [guitangdichvu, nhacchodamua, lichsucaidat, lichsugiaodich, thongtincanhan, caidatnangcao, quanlynhom, huongdan, tamngungdichvu, huydichvu, dangxuat]
+    static let allDanhSach = [guitangdichvu, googleMap, lichsucaidat, lichsugiaodich, thongtincanhan, caidatnangcao, quanlynhom, huongdan, tamngungdichvu, huydichvu, dangxuat]
     
     var text: String {
         get {
             switch self {
             case .guitangdichvu:
                 return "Gửi tặng dịch vụ"
-            case .nhacchodamua:
-            return "Nhạc chờ đã mua"
+            case .googleMap:
+            return "GoogleMap"
             case .lichsucaidat:
             return "Lịch sử cài đặt"
             case .lichsugiaodich:

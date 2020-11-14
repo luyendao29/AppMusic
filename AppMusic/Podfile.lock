@@ -1,24 +1,46 @@
 PODS:
   - Alamofire (4.9.1)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - iCarousel (1.8.3)
   - KVLoading (1.9)
   - LGSideMenuController (2.1.1)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Alamofire (~> 4.9)
+  - GoogleMaps
+  - GooglePlaces
+  - iCarousel
   - KVLoading (~> 1.5)
   - LGSideMenuController
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - iCarousel
     - KVLoading
     - LGSideMenuController
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   KVLoading: ee22535e4ee4c6ad1ab4272b9e3c283453a9821d
   LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 410671acf9a2c7108f808dd7a06f86a3c35cedef
+PODFILE CHECKSUM: 701b1bc8c323a45e68576122a5a9694486cb9490
 
 COCOAPODS: 1.9.3

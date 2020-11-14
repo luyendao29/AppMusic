@@ -1,0 +1,6 @@
+framework module Pods_DemoCoverImageTests {
+  umbrella header "Pods-DemoCoverImageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I4j-c2-Mcn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoCoverImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="90"/>
+        </scene>
+        <!--Using Story Board-->
+        <scene sceneID="w1K-l5-7Uu">
+            <objects>
+                <viewController id="I4j-c2-Mcn" customClass="UsingStoryBoard" customModule="DemoCoverImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J07-OW-e7b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6iX-Nd-2yq" customClass="iCarousel">
+                                <rect key="frame" x="8" y="52" width="398" height="130"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="8GH-qg-tfl"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="I4j-c2-Mcn" id="fem-Rz-FoB"/>
+                                    <outlet property="delegate" destination="I4j-c2-Mcn" id="fjD-SX-xrU"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6iX-Nd-2yq" firstAttribute="top" secondItem="cwG-d2-8B0" secondAttribute="top" constant="8" id="2bF-qS-xuX"/>
+                            <constraint firstItem="cwG-d2-8B0" firstAttribute="trailing" secondItem="6iX-Nd-2yq" secondAttribute="trailing" constant="8" id="s7e-7g-S1M"/>
+                            <constraint firstItem="6iX-Nd-2yq" firstAttribute="leading" secondItem="cwG-d2-8B0" secondAttribute="leading" constant="8" id="wBj-VW-aIZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cwG-d2-8B0"/>
+                    </view>
+                    <connections>
+                        <outlet property="uiview" destination="6iX-Nd-2yq" id="lt8-Qv-cwS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wub-55-GnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="90"/>
+        </scene>
+    </scenes>
+</document>

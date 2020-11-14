@@ -18,6 +18,18 @@ extension Storyboard {
         static func mainViewController() -> MainViewController {
             return manager.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
         }
+        
+        static func mainGoogleMapVC() -> MainGoogleMapVC {
+            return manager.instantiateViewController(withIdentifier: "MainGoogleMapVC") as! MainGoogleMapVC
+        }
+        
+        static func masterViewController() -> MasterViewController {
+            return manager.instantiateViewController(withIdentifier: "MasterViewController") as! MasterViewController
+        }
+        
+        static func rideNowViewController() -> RideNowViewController {
+            return manager.instantiateViewController(withIdentifier: "RideNowViewController") as! RideNowViewController
+        }
     }
 }
 

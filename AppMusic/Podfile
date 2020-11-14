@@ -6,6 +6,11 @@ target 'AppMusic' do
   use_frameworks!
 
   # Pods for AppMusic
+	pod 'Alamofire'
+	pod 'SwiftyJSON'
+	pod 'GooglePlaces'
+	pod 'GoogleMaps'
+	pod 'iCarousel'
 	pod 'LGSideMenuController'
 	pod 'Alamofire', '~> 4.9'
 	pod 'KVLoading', '~> 1.5'

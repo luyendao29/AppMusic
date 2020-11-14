@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DemoCoverImage' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DemoCoverImage
+
+	pod 'iCarousel'
+
+  target 'DemoCoverImageTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DemoCoverImageUITests' do
+    # Pods for testing
+  end
+
+end

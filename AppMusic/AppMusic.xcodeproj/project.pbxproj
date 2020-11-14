@@ -12,7 +12,7 @@
 		617C1E4DE2F05E2118FEEA4B /* Pods_AppMusic_AppMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4502B48558E0F6AD403AF2 /* Pods_AppMusic_AppMusicUITests.framework */; };
 		81169D77253687F50016C756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169D76253687F50016C756 /* AppDelegate.swift */; };
 		81169D79253687F50016C756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169D78253687F50016C756 /* SceneDelegate.swift */; };
-		81169D7B253687F50016C756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169D7A253687F50016C756 /* ViewController.swift */; };
+		81169D7B253687F50016C756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169D7A253687F50016C756 /* LoginViewController.swift */; };
 		81169D7E253687F50016C756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81169D7C253687F50016C756 /* Main.storyboard */; };
 		81169D80253687F80016C756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81169D7F253687F80016C756 /* Assets.xcassets */; };
 		81169D83253687F80016C756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81169D81253687F80016C756 /* LaunchScreen.storyboard */; };
@@ -36,6 +36,21 @@
 		81169DCE2536E9E10016C756 /* DetailMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169DCC2536E9E10016C756 /* DetailMainCell.swift */; };
 		81169DCF2536E9E10016C756 /* DetailMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81169DCD2536E9E10016C756 /* DetailMainCell.xib */; };
 		81169DD12536EAE40016C756 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81169DD02536EAE40016C756 /* BaseTableViewCell.swift */; };
+		815B728C25394B1F000EC10E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B728B25394B1F000EC10E /* MasterViewController.swift */; };
+		815B728E2539A3A4000EC10E /* RideNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B728D2539A3A4000EC10E /* RideNowViewController.swift */; };
+		815B72922539AC93000EC10E /* RidePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B72912539AC93000EC10E /* RidePath.swift */; };
+		815B72942539AFAE000EC10E /* CEnumClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B72932539AFAE000EC10E /* CEnumClass.swift */; };
+		815C1A292538A826008F3F7D /* MainGoogleMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C1A282538A826008F3F7D /* MainGoogleMapVC.swift */; };
+		81E13A452538536A00E81FC5 /* DetailPlayVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E13A442538536A00E81FC5 /* DetailPlayVideoVC.swift */; };
+		81E13A4A2538548300E81FC5 /* PlayVideosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E13A482538548300E81FC5 /* PlayVideosCell.swift */; };
+		81E13A4B2538548300E81FC5 /* PlayVideosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A492538548300E81FC5 /* PlayVideosCell.xib */; };
+		81E13A4E253855F300E81FC5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E13A4D253855F300E81FC5 /* Video.swift */; };
+		81E13A5625385DB800E81FC5 /* v6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5025385DB400E81FC5 /* v6.mp4 */; };
+		81E13A5725385DB800E81FC5 /* v1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5125385DB500E81FC5 /* v1.mp4 */; };
+		81E13A5825385DB800E81FC5 /* v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5225385DB600E81FC5 /* v2.mp4 */; };
+		81E13A5925385DB800E81FC5 /* v3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5325385DB700E81FC5 /* v3.mp4 */; };
+		81E13A5A25385DB800E81FC5 /* v4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5425385DB800E81FC5 /* v4.mp4 */; };
+		81E13A5B25385DB800E81FC5 /* v5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81E13A5525385DB800E81FC5 /* v5.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +77,7 @@
 		81169D73253687F50016C756 /* AppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81169D76253687F50016C756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81169D78253687F50016C756 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81169D7A253687F50016C756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81169D7A253687F50016C756 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		81169D7D253687F50016C756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81169D7F253687F80016C756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81169D82253687F80016C756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,6 +106,21 @@
 		81169DCC2536E9E10016C756 /* DetailMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainCell.swift; sourceTree = "<group>"; };
 		81169DCD2536E9E10016C756 /* DetailMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMainCell.xib; sourceTree = "<group>"; };
 		81169DD02536EAE40016C756 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		815B728B25394B1F000EC10E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		815B728D2539A3A4000EC10E /* RideNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideNowViewController.swift; sourceTree = "<group>"; };
+		815B72912539AC93000EC10E /* RidePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePath.swift; sourceTree = "<group>"; };
+		815B72932539AFAE000EC10E /* CEnumClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEnumClass.swift; sourceTree = "<group>"; };
+		815C1A282538A826008F3F7D /* MainGoogleMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGoogleMapVC.swift; sourceTree = "<group>"; };
+		81E13A442538536A00E81FC5 /* DetailPlayVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlayVideoVC.swift; sourceTree = "<group>"; };
+		81E13A482538548300E81FC5 /* PlayVideosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideosCell.swift; sourceTree = "<group>"; };
+		81E13A492538548300E81FC5 /* PlayVideosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayVideosCell.xib; sourceTree = "<group>"; };
+		81E13A4D253855F300E81FC5 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		81E13A5025385DB400E81FC5 /* v6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v6.mp4; sourceTree = "<group>"; };
+		81E13A5125385DB500E81FC5 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.mp4; sourceTree = "<group>"; };
+		81E13A5225385DB600E81FC5 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v2.mp4; sourceTree = "<group>"; };
+		81E13A5325385DB700E81FC5 /* v3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.mp4; sourceTree = "<group>"; };
+		81E13A5425385DB800E81FC5 /* v4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v4.mp4; sourceTree = "<group>"; };
+		81E13A5525385DB800E81FC5 /* v5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v5.mp4; sourceTree = "<group>"; };
 		85853BEC3414AD34DB0BC6FA /* Pods-AppMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMusic.release.xcconfig"; path = "Target Support Files/Pods-AppMusic/Pods-AppMusic.release.xcconfig"; sourceTree = "<group>"; };
 		CCACB1DB9711869100405494 /* Pods_AppMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4502B48558E0F6AD403AF2 /* Pods_AppMusic_AppMusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMusic_AppMusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,13 +182,15 @@
 		81169D75253687F50016C756 /* AppMusic */ = {
 			isa = PBXGroup;
 			children = (
+				815C1A242538A7E9008F3F7D /* GoogleMap */,
+				81E13A462538545F00E81FC5 /* PlayVideo */,
 				81169DC52536E9090016C756 /* Main */,
 				81169DC02536E27E0016C756 /* Storyboard */,
 				81169DAF25369E4B0016C756 /* Extension */,
 				81169DA625369D6B0016C756 /* Base */,
 				81169D76253687F50016C756 /* AppDelegate.swift */,
 				81169D78253687F50016C756 /* SceneDelegate.swift */,
-				81169D7A253687F50016C756 /* ViewController.swift */,
+				81169D7A253687F50016C756 /* LoginViewController.swift */,
 				81169D7C253687F50016C756 /* Main.storyboard */,
 				81169D7F253687F80016C756 /* Assets.xcassets */,
 				81169D81253687F80016C756 /* LaunchScreen.storyboard */,
@@ -255,6 +287,99 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		81261D43253A0FE90056F5DD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				815C1A282538A826008F3F7D /* MainGoogleMapVC.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		815C1A242538A7E9008F3F7D /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				815C1A272538A800008F3F7D /* Model */,
+				815C1A262538A7F9008F3F7D /* Controller */,
+				815C1A252538A7F3008F3F7D /* View */,
+			);
+			path = GoogleMap;
+			sourceTree = "<group>";
+		};
+		815C1A252538A7F3008F3F7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		815C1A262538A7F9008F3F7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				815C1A2A2538B24F008F3F7D /* DemoTestMap */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		815C1A272538A800008F3F7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		815C1A2A2538B24F008F3F7D /* DemoTestMap */ = {
+			isa = PBXGroup;
+			children = (
+				81261D43253A0FE90056F5DD /* New Group */,
+				815B728B25394B1F000EC10E /* MasterViewController.swift */,
+				815B728D2539A3A4000EC10E /* RideNowViewController.swift */,
+				815B72912539AC93000EC10E /* RidePath.swift */,
+				815B72932539AFAE000EC10E /* CEnumClass.swift */,
+			);
+			path = DemoTestMap;
+			sourceTree = "<group>";
+		};
+		81E13A462538545F00E81FC5 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				81E13A4F25385DA400E81FC5 /* Videos */,
+				81E13A4C253855E800E81FC5 /* Model */,
+				81E13A442538536A00E81FC5 /* DetailPlayVideoVC.swift */,
+				81E13A472538546E00E81FC5 /* Cell */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		81E13A472538546E00E81FC5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81E13A482538548300E81FC5 /* PlayVideosCell.swift */,
+				81E13A492538548300E81FC5 /* PlayVideosCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		81E13A4C253855E800E81FC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81E13A4D253855F300E81FC5 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81E13A4F25385DA400E81FC5 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				81E13A5125385DB500E81FC5 /* v1.mp4 */,
+				81E13A5225385DB600E81FC5 /* v2.mp4 */,
+				81E13A5325385DB700E81FC5 /* v3.mp4 */,
+				81E13A5425385DB800E81FC5 /* v4.mp4 */,
+				81E13A5525385DB800E81FC5 /* v5.mp4 */,
+				81E13A5025385DB400E81FC5 /* v6.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		9DD6B905E7F849993F682FEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +415,7 @@
 				81169D70253687F50016C756 /* Frameworks */,
 				81169D71253687F50016C756 /* Resources */,
 				EE69A787AAFE9715A0F05678 /* [CP] Embed Pods Frameworks */,
+				5198B20A2844F5FFFFA488A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,6 +454,7 @@
 				81169D91253687F80016C756 /* Frameworks */,
 				81169D92253687F80016C756 /* Resources */,
 				0C53A4E9A73219F1FC014EFA /* [CP] Embed Pods Frameworks */,
+				3ABE727DC1CCD55C67A785D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -387,10 +514,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E13A5B25385DB800E81FC5 /* v5.mp4 in Resources */,
 				81169D83253687F80016C756 /* LaunchScreen.storyboard in Resources */,
+				81E13A5625385DB800E81FC5 /* v6.mp4 in Resources */,
 				81169D80253687F80016C756 /* Assets.xcassets in Resources */,
+				81E13A5A25385DB800E81FC5 /* v4.mp4 in Resources */,
+				81E13A5725385DB800E81FC5 /* v1.mp4 in Resources */,
 				81169DA825369D750016C756 /* BaseAlert.storyboard in Resources */,
+				81E13A5925385DB800E81FC5 /* v3.mp4 in Resources */,
+				81E13A5825385DB800E81FC5 /* v2.mp4 in Resources */,
 				81169DCA2536E9320016C756 /* MainLeftCell.xib in Resources */,
+				81E13A4B2538548300E81FC5 /* PlayVideosCell.xib in Resources */,
 				81169D7E253687F50016C756 /* Main.storyboard in Resources */,
 				81169DCF2536E9E10016C756 /* DetailMainCell.xib in Resources */,
 			);
@@ -428,6 +562,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMusic-AppMusicUITests/Pods-AppMusic-AppMusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ABE727DC1CCD55C67A785D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMusic-AppMusicUITests/Pods-AppMusic-AppMusicUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMusic-AppMusicUITests/Pods-AppMusic-AppMusicUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMusic-AppMusicUITests/Pods-AppMusic-AppMusicUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5198B20A2844F5FFFFA488A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMusic/Pods-AppMusic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMusic/Pods-AppMusic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMusic/Pods-AppMusic-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9FC36B891211D4896E8E81CE /* [CP] Check Pods Manifest.lock */ = {
@@ -520,8 +688,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81169D7B253687F50016C756 /* ViewController.swift in Sources */,
+				81169D7B253687F50016C756 /* LoginViewController.swift in Sources */,
 				81169D77253687F50016C756 /* AppDelegate.swift in Sources */,
+				81E13A452538536A00E81FC5 /* DetailPlayVideoVC.swift in Sources */,
 				81169DBD2536DB900016C756 /* Enum.swift in Sources */,
 				81169DAA25369DA70016C756 /* ShowAlertVC.swift in Sources */,
 				81169DD12536EAE40016C756 /* BaseTableViewCell.swift in Sources */,
@@ -530,14 +699,21 @@
 				81169DCE2536E9E10016C756 /* DetailMainCell.swift in Sources */,
 				81169DAE25369DDD0016C756 /* AlertService.swift in Sources */,
 				81169DBF2536DE7F0016C756 /* ToggleViewProtocol.swift in Sources */,
+				815C1A292538A826008F3F7D /* MainGoogleMapVC.swift in Sources */,
+				815B72942539AFAE000EC10E /* CEnumClass.swift in Sources */,
+				81E13A4A2538548300E81FC5 /* PlayVideosCell.swift in Sources */,
 				81169DC42536E59C0016C756 /* BaseNavigationController.swift in Sources */,
 				81169DB325369ECE0016C756 /* BaseViewController.swift in Sources */,
 				81169DB52536D57D0016C756 /* MainViewController.swift in Sources */,
 				81169DC22536E2890016C756 /* Storyboard.swift in Sources */,
 				81169DB125369E520016C756 /* CornerRadiusOnlyView.swift in Sources */,
 				81169DC92536E9320016C756 /* MainLeftCell.swift in Sources */,
+				815B728C25394B1F000EC10E /* MasterViewController.swift in Sources */,
 				81169DBB2536DAF20016C756 /* View.swift in Sources */,
+				815B728E2539A3A4000EC10E /* RideNowViewController.swift in Sources */,
+				81E13A4E253855F300E81FC5 /* Video.swift in Sources */,
 				81169DAC25369DBD0016C756 /* ShowAlertWithConfirm.swift in Sources */,
+				815B72922539AC93000EC10E /* RidePath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,7 +888,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
 				INFOPLIST_FILE = AppMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -730,7 +908,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
 				INFOPLIST_FILE = AppMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

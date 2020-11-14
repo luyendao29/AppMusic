@@ -2,3 +2,5 @@ ${PODS_ROOT}/Target Support Files/Pods-AppMusic/Pods-AppMusic-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/KVLoading/KVLoading.framework
 ${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework
